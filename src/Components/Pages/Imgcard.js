@@ -55,13 +55,13 @@ const Imgcard = () => {
                     </Col>
                     <Col className='col-12 col-sm-12 col-md-3 img2' >
                         <img src={img7} width="28" />
-                        <p>minimal design</p>
+                        <h6>minimal design</h6>
                         <p>Some quick example text to build</p>
                         <p>bulk of the card's content</p>
                     </Col>
                     <Col className='col-12 col-sm-12 col-md-3 img2' >
                         <img src={img8} width="28" />
-                        <p>minimal design</p>
+                        <h6>minimal design</h6>
                         <p>Some quick example text to build</p>
                         <p>bulk of the card's content</p>
                     </Col>

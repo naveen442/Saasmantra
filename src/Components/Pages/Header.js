@@ -8,20 +8,20 @@ const Header = () => {
         <div className='header'>
             <Navbar collapseOnSelect expand="lg" className='col-md-12 header' bg="white" variant="light">
                 <Container>
-                    <Navbar.Brand href="#Home">Opalin</Navbar.Brand>
+                    <Navbar.Brand className='navbarbrand' href="#Home">Opalin</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#Home">Home</Nav.Link>
-                            <Nav.Link href="#pricing">Pricing</Nav.Link>
-                            <Nav.Link href="#About">About</Nav.Link>
+                            <Nav.Link href="#Home" className='navlink'>Home</Nav.Link>
+                            <Nav.Link href="#pricing" className='navlink'>Pricing</Nav.Link>
+                            <Nav.Link href="#About" className='navlink'>About</Nav.Link>
 
 
                         </Nav>
                         <Nav>
-                            <Nav.Link href="#LogIn">Login</Nav.Link>
+                            <Nav.Link className='navlink' href="#LogIn">Login</Nav.Link>
                             {/* <Nav.Link href="SignUp" className='Signup'>Sign Up</Nav.Link> */}
-                            <Button variant="secondary" className='Signup'>Sign Up</Button>
+                            <Button className='Signup'>Sign Up</Button>
 
 
                         </Nav>

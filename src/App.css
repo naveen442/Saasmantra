@@ -1,5 +1,12 @@
+body{
+  font-family: 'Times New Roman', Times, serif !important;
+}
 .Signup {
   border-radius: 20px !important;
+  font-weight: bold !important;
+  background-color:rgba(243, 232, 232, 0.95) !important;
+  border: none !important;
+  color:rgb(31, 28, 28) !important;
 }
 
 .required {
@@ -15,11 +22,11 @@
   text-align: center;
   margin-top: 100px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .cardbgclr {
-  background-color: rgba(254, 240, 240, 0.214);
+  background-color:rgba(96, 86, 86, 0.0198) !important;
   padding-bottom: 30px;
 
 }
@@ -33,6 +40,19 @@
   width: 100%;
   border-radius: 20px !important;
   text-align: center;
+  background-color: rgba(205, 189, 189, 0.789) !important;
+  border: none !important;
+  color:black !important;
+ 
+}
+.cardbuttonlast{
+  width: 100%;
+  border-radius: 20px !important;
+  text-align: center;
+  background-color: rgba(205, 189, 189, 0.789) !important;
+  border: none !important;
+  color:white;
+
 }
 
 .listsize {
@@ -40,9 +60,10 @@
 }
 
 .lastcard {
-  background-color: rgba(22, 3, 41, 0.645) !important;
-  color: white;
+  background-color: rgba(10, 1, 19, 0.969) !important;
+  color: white !important;
 }
+
 
 .imagecardoverall {
   margin: 50px 0;
@@ -50,7 +71,7 @@
 
 
 .imgcontainer {
-  background-color: rgba(254, 240, 240, 0.214);
+  background-color:rgba(96, 86, 86, 0.0198) !important;
 }
 
 .imagecardoverall h6 {
@@ -68,9 +89,14 @@
 .img1 {
   font-size: 12px;
   text-align: center;
+  margin: 0px !important;
 
 }
+.img1,.img2 h6,p{
+margin:0px !important;
+line-height: 20px !important;
 
+}
 .img2 {
   margin-top: 30px !important;
   font-size: 12px;
@@ -125,7 +151,32 @@ img {
   font-size: 12px;
   font-weight: bold;
 }
+.cardfontweight{
+  font-weight:bold !important;
+  font-size: 30px !important;
 
+}
+.cardlineheight{
+  line-height:20px !important;
+}
+.texth3{
+  font-weight:600;
+}
+.navbarbrand{
+  font-weight: bold;
+}
+.navlink{
+  font-weight:bold !important;
+}
+.cardpara{
+  color: rgba(131, 117, 117, 0.695);
+  margin-bottom: 5px !important;
+}
+span{
+  color: rgba(131, 117, 117, 0.695);
+  font-size: 10px;
+  font-weight:bold;
+}
 /*
 @media screen and (min-device-width:768px) and (max-device-width:1023px) and (orientation:portrait) {
   .img1 {

@@ -30,7 +30,10 @@ body{
   padding-bottom: 30px;
 
 }
+/* .carwidth{
+width: 300px!important;
 
+} */
 .cardcol {
   padding-top: 50px;
   /* margin-left: 70px; */
@@ -47,9 +50,10 @@ body{
 }
 .cardbuttonlast{
   width: 100%;
-  border-radius: 20px !important;
+  border-radius:20px !important;
   text-align: center;
-  background-color: rgba(205, 189, 189, 0.789) !important;
+  /* background-color: rgba(205, 189, 189, 0.789) !important; */
+  background-color: rgb(3, 3, 61) !important;
   border: none !important;
   color:white;
 
@@ -60,7 +64,10 @@ body{
 }
 
 .lastcard {
-  background-color: rgba(10, 1, 19, 0.969) !important;
+  background-color: rgba(39, 4, 74, 0.601) !important;
+  border-radius: 5px !important;
+  border: none !important;
+
   color: white !important;
 }
 
@@ -95,12 +102,14 @@ body{
 .img1,.img2 h6,p{
 margin:0px !important;
 line-height: 20px !important;
+font-size: 16px !important;
 
 }
 .img2 {
   margin-top: 30px !important;
   font-size: 12px;
   text-align: center;
+  padding-bottom:50px !important;
 }
 
 img {
@@ -109,6 +118,7 @@ img {
 }
 
 .form-bg {
+  margin-top:-50px !important;
   background-color: blue;
   background-image: url('../src//Assets//Images//bg.jpg');
   background: url('../src//Assets//Images/bg.jpg') no-repeat center center;
@@ -158,6 +168,7 @@ img {
 }
 .cardlineheight{
   line-height:20px !important;
+  
 }
 .texth3{
   font-weight:600;

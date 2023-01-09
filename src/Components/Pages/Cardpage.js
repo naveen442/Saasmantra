@@ -13,7 +13,7 @@ const Cardpage = () => {
                 <Row className="cardcol gx-3 gy-2 justify-content-center">
                     <Col className='col-10'>
                     <Row className=' gy-5 justify-content-center'>
-                    <Col className='col-10 col-xs-10 col-sm-10 col-md-4 col-lg-4  '>
+                    <Col className='col-10 col-xs-10 col-sm-10 col-md-4 col-lg-4  carwidth  '>
                         <Card style={{ width: '90%' }}>
                             <Card.Body className='pb-4'>
                                 <p className='cardpara'>Free Forever</p>
@@ -30,7 +30,7 @@ const Cardpage = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col className='col-10 col-xs-10 col-sm-10 col-md-4 col-lg-4'>
+                    <Col className='col-10 col-xs-10 col-sm-10 col-md-4 col-lg-4 carwidth  '>
                         <Card style={{ width: '90%' }} >
                             <Card.Body className='pb-4'>
                             <p className='cardpara'>For Terms</p>
@@ -47,7 +47,7 @@ const Cardpage = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col className='col-10 col-xs-10 col-sm-10 col-md-4 col-lg-4'>
+                    <Col className='col-10 col-xs-10 col-sm-10 col-md-4 col-lg-4 carwidth'>
                         <Card style={{ width: '90%' }} >
                             <Card.Body className='pb-4 lastcard'>
                             <p className='cardpara'>For Enterprises</p>
@@ -58,6 +58,7 @@ const Cardpage = () => {
                                     <li>Some quick example text to build  </li>
                                     <li> and make up the bulk of the.</li>
                                     <li>  bulk of the card's content</li>
+                                    
                                     </ul>
                                 </Card.Text>
                                 <Button className='cardbuttonlast'>Start14-day Trial</Button>

@@ -164,7 +164,7 @@ img {
 .cardfontweight{
   font-weight:bold !important;
   font-size: 30px !important;
-
+   
 }
 .cardlineheight{
   line-height:20px !important;
@@ -180,11 +180,11 @@ img {
   font-weight:bold !important;
 }
 .cardpara{
-  color: rgba(131, 117, 117, 0.695);
+  color: rgba(209, 202, 202, 0.695) !important;
   margin-bottom: 5px !important;
 }
 span{
-  color: rgba(131, 117, 117, 0.695);
+  color: rgba(131, 117, 117, 0.695) !important;
   font-size: 10px;
   font-weight:bold;
 }
